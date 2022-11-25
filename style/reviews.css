@@ -1,0 +1,29 @@
+.reviews {
+  padding: 40px 0;
+}
+
+.reviews-item {
+  border: 1px solid #ccc;
+  min-height: 310px;
+}
+
+.reviews-text {
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 13px;
+}
+
+.quotes {
+  color: #ECBD00;
+  font-size: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.reviews-image {
+  float: left;
+  border-radius: 100%;
+  height: 70px;
+  margin-right: 20px;
+  margin-left: 20px;
+}

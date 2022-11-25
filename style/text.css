@@ -1,0 +1,19 @@
+.title-big {
+  font-size: 50px;
+}
+
+.text-medium {
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.text-normal {
+  font-size: 20px;
+  text-align: left;
+}
+
+.text-small {
+  font-size: 15px;
+}
