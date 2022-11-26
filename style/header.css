@@ -48,6 +48,11 @@ footer {
   color: white;
 }
 
+.header-item-link:hover {
+  color: gray;
+  transition: all ease .3s;
+}
+
 .footer-item {
   list-style: none;
   padding: 0 20px;

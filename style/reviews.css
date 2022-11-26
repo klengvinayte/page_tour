@@ -4,7 +4,6 @@
 
 .reviews-item {
   border: 1px solid #ccc;
-  min-height: 310px;
 }
 
 .reviews-text {
@@ -26,4 +25,19 @@
   height: 70px;
   margin-right: 20px;
   margin-left: 20px;
+  margin-bottom: 20px;
+
+}
+
+.reviews .reviews-item .reviews-image {
+  width: 15%; /* Ширина изображений */
+  height: 15%; /* Высота изображении */
+  object-fit: cover; /* Вписываем фотографию в область */
+}
+
+
+.list .list-item .list-1 { 
+ width: 80%; /* Ширина изображений */
+ height: 0%; /* Высота изображении */
+ object-fit: cover; /* Вписываем фотографию в область */
 }

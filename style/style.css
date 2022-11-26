@@ -57,3 +57,9 @@ body {
 .image-nature {
   width: 500px;
 }
+
+.last-foto .image-nature {
+  width: 90%; /* Ширина изображений */
+  height: 90%; /* Высота изображении */
+  object-fit: cover; /* Вписываем фотографию в область */
+}

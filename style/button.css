@@ -22,3 +22,8 @@
   background: #9A1C00;
   color: #fff;
 }
+
+.button-orange:hover {
+  background: #751103;
+  transition: all ease .3s;
+}
