@@ -7,8 +7,6 @@ body {
   font-family: "Montserrat", sans-serif;
   line-height: 1.5;
   background: #f3f3f3;
-  position: relative;
-  min-height: 100vh;
 }
 
 .icon {

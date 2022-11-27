@@ -1,41 +1,27 @@
-/*.foto-tours, .destination, .destination-footer {
-  border-radius: 5px;
-}*/
-
 .tours {
   width: 100%;
   margin: auto;
-
-
-
 }
 
 .foto-tours {
+  border-radius: 2rem;
   width: 270px;
   height: auto;
   margin-bottom: 10px;
   margin-top: 20px;
-  object-fit: scale-down
+  object-fit: scale-down;
 }
 
-.tours .foto-tours { 
- width: 90%; 
- height: 90%;  
- object-fit: cover; 
+.tours .foto-tours {
+  width: 90%;
+  height: 90%;
+  object-fit: cover;
 }
 
 .destination {
-  background: #eee;
   width: 100%;
-  
+  border-radius: 5px;
 }
-
-/*.destination-footer {
-  background: #e3e3e3;
-  color: gray;
-  padding: 5px 0;
-  vertical-align: bottom;
-}*/
 
 .text-item {
   font-size: 13px;
@@ -43,8 +29,4 @@
   margin-right: 20px;
   margin-left: 20px;
   margin-bottom: 10px;
-}
-
-.prices {
-
 }

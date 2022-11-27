@@ -3,7 +3,6 @@
   width: 90%;
   margin-left: auto;
   margin-right: auto;
-
 }
 
 .column1-2 {
@@ -12,42 +11,11 @@
   margin-top: 20px;
 }
 
-.column-right {
-  float: right;
-  width: 30%;
-}
-
-.column-left {
-  float: left;
-  width: 65%;
-}
-
-.column1-3 {
-  float: left;
-  width: 33.33%;
-  position:relative;
-
-}
-
-.column1-4 {
-  float: left;
-  width: 25%;
-}
-
 .container:after {
   content: "";
   display: table;
   clear: both;
 }
-
-@media (max-width: 960px) {
-  .column1-4 {
-    float: none;
-    width: 50%;
-  }
-}
-
-
 
 .block {
   align-content: flex-start;
@@ -56,55 +24,60 @@
   justify-content: space-around;
 }
 
+.row {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+}
+
 .block-item-3 {
-  width          : 32%;
-  flex-wrap      : wrap;
-  flex-direction : column; 
+  width: 32%;
+  flex-wrap: wrap;
+  flex-direction: column;
   border: 1px solid #ccc;
   margin-top: 30px;
-
 }
 
 .block-item-2 {
-  width          : 50%;
-  flex-wrap      : wrap;
-  flex-direction : column; 
+  width: 50%;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .block-item-3-3 {
-  width          : 32%;
-  flex-wrap      : wrap;
-  flex-direction : column; 
+  border-radius: 2rem;
+  width: 31%;
+  flex-wrap: wrap;
+  flex-direction: column;
   border: 1px solid #ccc;
-  background: #eee;
-
+  background: #E7E7E7;
 }
 
 
 .block-item-4 {
-  width          : 25%;
-  flex-wrap      : wrap;
-  flex-direction : column; 
+  width: 25%;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
+.block-item-5 {
+  width: 20%;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
 
-@media (max-width: 800px) {
+@media (max-width: 840px) {
   .block {
     flex-wrap: wrap;
   }
+
   .block-item-4 {
     flex-grow: 1;
     width: 40%;
   }
-}
 
-@media (max-width: 640px) {
-  .block {
-    flex-wrap: wrap;
-  }
-
-  .block-item-3-3, .block-item-2 {
-   width: 100%;
+  .block-item-3-3, .block-item-3 {
+    width: 100%;
   }
 }
 
@@ -113,36 +86,15 @@
     flex-wrap: wrap;
   }
 
-  .block-item-3 {
-   width: 100%;
-  }
-}
-
-
-
-/*
-@media (max-width: 960px) {
-  .column1-3 {
-    float: none;
-    width: auto;
-  }
-}*/
-
-
-@media (max-width: 640px) {
-  .column-left,
-  .column-right,
-  .column1-3,
-  .column1-4 {
-    float: none;
-    width: auto;
-    display: block;
+  .block-item-2 {
+    width: 100%;
   }
 
   .header {
     position: relative;
     height: 15rem;
     padding-left: 0;
+    margin-left: -15px;
     text-align: center;
     display: block;
   }

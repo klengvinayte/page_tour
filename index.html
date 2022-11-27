@@ -20,37 +20,25 @@
   <!-- FONT -->
   <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat&family=Raleway:wght@500&display=swap"
         rel="stylesheet">
+
+  <script type="text/javascript" charset="utf-8" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" charset="utf-8" src="parallax.js-1.5.0/parallax.min.js"></script>
 </head>
 <body>
-<header>
+<div class="header">
   <div class="container">
-    <div class="column-left">
-      <div class="header-logo">
+    <div class="block">
+      <div class="header-logo ">
         <img class="header-logo-image" src="images/logo2.png" alt="logo">
       </div>
-      <nav class="header-nav">
-        <ul>
-          <li class="header-item">
-            <a class="header-item-link" href="#guide">Гиды</a>
-          </li>
-          <li class="header-item">
-            <a class="header-item-link" href="#date">Наши туры</a>
-          </li>
-          <li class="header-item">
-            <a class="header-item-link" href="#review">Отзывы</a>
-          </li>
-          <li class="header-item">
-            <a class="header-item-link" href="#contacts">Контакты</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="column-right text-center buffer-top">
-      <a class="request button-orange" href="#">Оставить заявку</a>
+      <a class="header-item-link header-item header-text" href="#guide">Гиды</a>
+      <a class="header-item-link header-item header-text" href="#date">Наши туры</a>
+      <a class="header-item-link header-item header-text" href="#review">Отзывы</a>
+      <a class="header-item-link header-item header-text" href="#contacts">Контакты</a>
     </div>
   </div>
-</header>
-<div class="intro text-center">
+</div>
+<div class="intro text-center" data-parallax="scroll" data-image-src="images/image1.png">
   <img class="intro-logo" src="images/logo2.png" alt="logo">
   <h1 class="title-big">ТУР ПОХОД В ГОРЫ</h1>
   <p class="text-color">Вы мечтаете - мы воплощаем!</p>
@@ -94,13 +82,10 @@
     </div>
   </div>
 </div>
-
-
 <div class="reasons text-center">
   <div class="container">
     <p class="text-medium buffer-top-max">ЛУЧШЕ ГОР МОГУТ БЫТЬ ТОЛЬКО ПОХОДЫ В ГОРЫ!</p>
     <div class="block">
-
       <div class="block-item-4 guides-item">
         <div class="text-center">
           <img class="icon" src="icons/flower-1.png" alt="">
@@ -108,7 +93,6 @@
         <p class="text-medium buffer-bottom">Отдых от города</p>
         <p class="text-small">Маршруты отлично подходит начинающим туристам! </p>
       </div>
-
       <div class="block-item-4 guides-item">
         <div class="text-center">
           <img class="icon" src="icons/backpack.png" alt="">
@@ -116,7 +100,6 @@
         <p class="text-medium">Новый формат отдыха</p>
         <p class="text-small">Исключительно полезная нагрузка, укрепляются мышцы, закаляется нервная система.</p>
       </div>
-
       <div class="block-item-4 guides-item">
         <div class="text-center">
           <img class="icon" src="icons/ramp.png" alt="">
@@ -124,7 +107,6 @@
         <p class="text-medium buffer-bottom">Незабываемые эмоции</p>
         <p class="text-small">Можно увидеть пейзажи, напоминающие Канаду, Альпы и даже Камчатку!</p>
       </div>
-
       <div class="block-item-4 guides-item">
         <div class="text-center">
           <img class="icon" src="icons/camp.png" alt="">
@@ -132,17 +114,13 @@
         <p class="text-medium">Хорошая компания</p>
         <p class="text-small">Расширьте свой круг общения. </p>
       </div>
-
     </div>
   </div>
 </div>
-
-
 <div class="guides text-center buffer-bottom-max" id="guide">
   <div class="container">
     <p class="guides-title">Наши гиды</p>
     <div class="block">
-
       <div class="block-item-2 guides-item">
         <div class="text-center">
           <img class="avatar buffer-bottom-max buffer-top-max" src="images/avatar4.jpeg" alt="avatar">
@@ -151,7 +129,6 @@
         <p class="text-small text-normal">Работает гидом уже 8 лет, мы бесконечно ему доверяем! Опытный гид, который
           готов к приключениям.</p>
       </div>
-
       <div class="block-item-2 guides-item">
         <div class="text-center">
           <img class="avatar buffer-bottom-max buffer-top-max" src="images/avatar2.jpeg" alt="avatar">
@@ -163,14 +140,10 @@
     </div>
   </div>
 </div>
-
-
 <div class="container buffer-top-max">
   <p class="text-center text-color buffer-bottom">Ближайшие туры</p>
   <p class="text-center buffer-bottom-max">Найдите вдохновение в местах, которые мы подобрали для вас</p>
 </div>
-
-
 <div class="tours text-center" id="date">
   <div class="container">
     <div class="block">
@@ -188,15 +161,11 @@
             увидеть это своими глазами.</p>
           <p class="buffer-bottom-min">Сложность: средняя</p>
           <p class="text-color">9&nbsp;000&nbsp;руб.</p>
-
           <div class="buffer-both">
             <a class="button button-orange" href="#">Забронировать</a>
           </div>
-
         </div>
       </div>
-
-
       <div class="block-item-3-3">
         <div class="destination text-center">
           <div class="text-center">
@@ -208,14 +177,11 @@
             бурные водопады.</p>
           <p class="buffer-bottom-min">Сложность: начальная</p>
           <p class="text-color">31&nbsp;000&nbsp;руб.</p>
-
           <div class="buffer-both">
             <a class="button button-orange" href="#">Забронировать</a>
           </div>
-
         </div>
       </div>
-
       <div class="block-item-3-3">
         <div class="destination text-center">
           <div class="text-center">
@@ -228,24 +194,18 @@
             как средневековыми башнями, так и великолепными горами. </p>
           <p class="buffer-bottom-min">Сложность: начальная</p>
           <p class="text-color">11&nbsp;000&nbsp;руб.</p>
-
           <div class="buffer-both">
             <a class="button button-orange" href="#">Забронировать</a>
           </div>
-
         </div>
       </div>
     </div>
   </div>
 </div>
-
-
 <div class="reviews buffer-top-max">
   <div class="container">
-
     <p class="text-medium buffer-both-max">ОТЗЫВЫ КЛИЕНТОВ</p>
     <div class="block" id="review">
-
       <div class="block-item-3">
         <p class="quotes">«</p>
         <p class="reviews-text">В целом, у ребят дружная атмосфера, все энергичные и заряженные. Лично я в восторге от
@@ -260,8 +220,7 @@
           <p class="text-small">CEO Harry Potter</p>
         </div>
       </div>
-
-      <div class="block-item-3">
+      <div class="block-item-3 ">
         <p class="quotes">«</p>
         <p class="reviews-text">Очень крутая компания! Пользуемся их услугами, все стабильно! Поддержка суперская,
           молниеносная, спасибо большое ребятам за такой сервис и высшую культуру обслуживания клиентов!</p>
@@ -274,11 +233,10 @@
           <p class="text-small">CEO Harry Potter</p>
         </div>
       </div>
-
       <div class="block-item-3">
         <p class="quotes">«</p>
         <p class="reviews-text">Все понравилось. И гиды, и локации, и печеньки с кофе, и чистота в палатках. В
-          машине трансфера лишь нужно в порядок привести багажник. Молодцы. Уезжать не хотелось.</p>
+          машине трансфера лишь нужно в порядок привести багажник. Молодцы. Уезжать совсем не хотелось.</p>
         <p class="quotes">»</p>
         <div class=" text-center">
           <img class="reviews-image" src="images/avatar-r.jpeg" alt="avatar">
@@ -291,20 +249,6 @@
     </div>
   </div>
 </div>
-
-
-<div class="last-foto">
-  <div class="container text-center">
-    <p class="buffer-both-max">ЗАПИСЫВАЙТЕСЬ СМЕЛЕЕ, ПРИКЛЮЧЕНИЯ ЖДУТ ВАС!</p>
-    <div class="column1-2">
-      <img class="image-nature" src="images/img1.jpeg" alt="nature">
-    </div>
-    <div class="column1-2">
-      <img class="image-nature" src="images/img2.jpeg" alt="nature">
-    </div>
-  </div>
-</div>
-
 <div class="last-foto text-center">
   <div class="container">
     <p class="buffer-both-max">ЗАПИСЫВАЙТЕСЬ СМЕЛЕЕ, ПРИКЛЮЧЕНИЯ ЖДУТ ВАС!</p>
@@ -315,26 +259,21 @@
       <div class="block-item-2">
         <img class="image-nature" src="images/img2.jpeg" alt="nature">
       </div>
-
     </div>
   </div>
 </div>
-
-
-<div class="footer-wrap" id="contacts">
-  <footer>
-    <div class="container">
-      <div class="footer-link">
-        <a href="#"><img src="images/facebook.svg" alt="facebook"></a>
-        <a href="#"><img src="images/instagram.svg" alt="instagram"></a>
-      </div>
+<div class=" container-footer" id="contacts">
+  <div class="row text-center">
+    <div>
       <p class="footer-item">© 2022 Хороший гид </p>
       <p class="footer-item">Phone number: 8 800 800 000</p>
       <p class="footer-item">email: google@google.com</p>
-      <a class="request button-orange" href="#">Оставить заявку</a>
     </div>
-  </footer>
+    <div>
+      <a href="#"><img src="images/facebook.svg" alt="facebook"></a>
+      <a href="#"><img src="images/instagram.svg" alt="instagram"></a>
+    </div>
+  </div>
 </div>
-
 </body>
 </html>
