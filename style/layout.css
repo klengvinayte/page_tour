@@ -1,5 +1,5 @@
 .container {
-  max-width: 1100px;
+  max-width: 1200px;
   width: 90%;
   margin-left: auto;
   margin-right: auto;
@@ -36,6 +36,7 @@
   flex-direction: column;
   border: 1px solid #ccc;
   margin-top: 30px;
+
 }
 
 .block-item-2 {
@@ -51,8 +52,9 @@
   flex-direction: column;
   border: 1px solid #ccc;
   background: #E7E7E7;
+  filter: drop-shadow(3px 3px 3px rgba(0,0,0,0.3));
+  margin-top: 30px;
 }
-
 
 .block-item-4 {
   width: 25%;
@@ -94,7 +96,7 @@
     position: relative;
     height: 15rem;
     padding-left: 0;
-    margin-left: -15px;
+    margin-left: -16px;
     text-align: center;
     display: block;
   }

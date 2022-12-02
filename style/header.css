@@ -24,11 +24,12 @@
 
 .header-logo {
   display: inline;
-  margin-top: 10px;
+  margin-top: 8px;
+  margin-bottom: 5px;
 }
 
 .header-logo-image {
-  width: 100px;
+  width: 90px;
   height: auto;
 }
 
